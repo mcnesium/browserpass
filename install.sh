@@ -124,7 +124,7 @@ if [ "$BROWSER_NAME" == "Chrome" ] || \
   mkdir -p "$TARGET_DIR"/../policies/managed/
   cp "$DIR/chrome/policy.json" "$TARGET_DIR"/../policies/managed/"$APP_NAME.json"
 else
-  cp "$DIR/firefox/host.json" "$TARGET_DIR/$APP_NAME.json"
+  cp "$DIR/firefox-host.json" "$TARGET_DIR/$APP_NAME.json"
 fi
 
 # Replace path to host
